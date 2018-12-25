@@ -11,12 +11,11 @@ import java.lang.reflect.Type;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import io.reactivex.Observable;
 import retrofit2.http.Path;
-import rx.Observable;
 
-/**
- * Created by Vinay on 12/9/2016.
- */
+
+
 public class MockAPIClient implements RestApi {
     @Override
     public Observable<List<GitHubRepoStarred>> getStarredRepositories(@Path("user") String userName) {

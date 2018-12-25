@@ -27,7 +27,7 @@ import okhttp3.CacheControl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import retrofit2.Retrofit;
-import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
@@ -132,7 +132,7 @@ public class ApplicationModule {
     RestApi provideRestApi(Gson gson, OkHttpClient okHttpClient, String baseURL) {
         return new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create(gson))
-                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .baseUrl(baseURL)
                 .client(okHttpClient)
                 .build()
@@ -144,10 +144,6 @@ public class ApplicationModule {
     Github provideDataRepository(RestAPIImpl restDataSource) {
         return restDataSource;
     }
-
-
-
-
 
 
 }

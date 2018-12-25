@@ -19,10 +19,6 @@ import java.util.concurrent.TimeUnit;
 import rx.Observable;
 import rx.Scheduler;
 
-
-/**
- * Created by Vinay on 12/7/2016.
- */
 public class TestStarredUseCase {
     private static final String STARRED_USER_NAME = "JakeWharton";
 

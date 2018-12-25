@@ -4,9 +4,7 @@ import com.fhi.sampledimvc.di.DaggerTestAppComponent;
 import com.fhi.sampledimvc.di.TestAppComponent;
 import com.fhi.sampledimvc.di.TestAppModule;
 
-/**
- * Created by Vinay on 12/9/2016.
- */
+
 public class TestApplication extends SampleTestApplication {
 
     private TestAppComponent testAppComponent;

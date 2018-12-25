@@ -1,8 +1,6 @@
 package com.fhi.sampledimvc.data;
 
-/**
- * Created by Vinay on 12/5/2016.
- */
+
 public final class TestData {
 
     public static final String MOCK_STARRED_DATA_LIST = "[\n" +

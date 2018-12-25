@@ -26,7 +26,7 @@ import javax.inject.Named;
 import javax.inject.Singleton;
 
 import dagger.Component;
-import rx.Scheduler;
+import io.reactivex.Scheduler;
 
 @Singleton
 @Component(modules = TestAppModule.class)

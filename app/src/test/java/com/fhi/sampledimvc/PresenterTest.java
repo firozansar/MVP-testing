@@ -16,9 +16,7 @@ import java.util.List;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-/**
- * Created by Vinay on 12/1/2016.
- */
+
 public class PresenterTest {
 
     @Mock

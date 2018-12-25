@@ -2,7 +2,6 @@ package com.fhi.sampledimvc.tests;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
-import android.test.suitebuilder.annotation.LargeTest;
 
 import com.fhi.sampledimvc.R;
 import com.fhi.sampledimvc.TestApplication;
@@ -24,10 +23,7 @@ import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
-/**
- * Created by Vinay on 12/9/2016.
- */
-@LargeTest
+
 @RunWith(AndroidJUnit4.class)
 public class MainActivityTests {
 
@@ -46,7 +42,7 @@ public class MainActivityTests {
 
     @Test
     public void correctStarredDataDisplayed() {
-        List<GitHubRepoStarred> testStarredData = mockRestAPI.getStarredRepositories(STARRED_USER_NAME).toBlocking().first();
+        List<GitHubRepoStarred> testStarredData = mockRestAPI.getStarredRepositories(STARRED_USER_NAME).first();
 
         onView(withId(R.id.titleTextView)).check(matches(withText(testStarredData.get(0).getName())));
     }
