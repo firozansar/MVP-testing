@@ -5,10 +5,6 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 
-/**
- * @author David Wu (david10608@gmail.com)
- *         Created by pl4gue on 10.10.17.
- */
 
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 

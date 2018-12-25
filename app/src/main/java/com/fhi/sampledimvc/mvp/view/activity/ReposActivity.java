@@ -24,10 +24,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * @author David Wu (david10608@gmail.com)
- *         Created on 09.10.17.
- */
 
 public class ReposActivity extends BaseActivity implements ReposView {
     @BindView(R.id.reposList)

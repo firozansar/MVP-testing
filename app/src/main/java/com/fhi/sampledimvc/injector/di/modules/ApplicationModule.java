@@ -31,9 +31,6 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-/**
- * Created by Vinay on 9/16/2016.
- */
 @Module
 public class ApplicationModule {
     private final SampleTestApplication mApplication;

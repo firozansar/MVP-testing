@@ -22,10 +22,6 @@ import butterknife.OnClick;
 
 import static com.fhi.sampledimvc.R.string.languagePreferenceKey;
 
-/**
- * Created by Vinay on 11/28/2016.
- * Edited by David Wu (david10608@gmail.com)
- */
 
 public class MainActivity extends BaseActivity {
 

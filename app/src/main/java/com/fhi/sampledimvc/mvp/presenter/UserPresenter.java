@@ -10,9 +10,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-/**
- * Created by Vinay on 11/29/2016.
- */
+
 public class UserPresenter implements Presenter {
 
     private UserView mView;
