@@ -1,9 +1,5 @@
 package com.fhi.sampledimvc.injector.di.components;
 
-/**
- * Created by Vinay on 9/16/2016.
- */
-
 
 import android.content.Context;
 
@@ -17,7 +13,8 @@ import javax.inject.Named;
 import javax.inject.Singleton;
 
 import dagger.Component;
-import rx.Scheduler;
+import io.reactivex.Scheduler;
+
 
 @Singleton
 @Component(modules = ApplicationModule.class)

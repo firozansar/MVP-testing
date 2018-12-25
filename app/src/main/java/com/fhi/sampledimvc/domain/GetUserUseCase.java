@@ -8,12 +8,9 @@ import java.util.List;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import rx.Observable;
-import rx.Scheduler;
+import io.reactivex.Observable;
+import io.reactivex.Scheduler;
 
-/**
- * Created by Vinay on 11/28/2016.
- */
 
 public class GetUserUseCase extends Usecase<List<User>> {
 

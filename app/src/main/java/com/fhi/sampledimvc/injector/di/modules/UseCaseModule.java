@@ -9,11 +9,9 @@ import javax.inject.Named;
 
 import dagger.Module;
 import dagger.Provides;
-import rx.Scheduler;
+import io.reactivex.Scheduler;
 
-/**
- * Created by Vinay on 11/28/2016.
- */
+
 @Module
 public class UseCaseModule {
 

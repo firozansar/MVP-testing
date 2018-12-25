@@ -6,14 +6,11 @@ import com.fhi.sampledimvc.data.entity.users.User;
 
 import java.util.List;
 
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
-import rx.Observable;
 
-/**
- * Created by Vinay on 11/28/2016.
- * @author Edited by David Wu (david10608@gmail.com)
- */
+
 public interface RestApi {
 
     @GET("users/{user}/starred")

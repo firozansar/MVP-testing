@@ -8,13 +8,9 @@ import java.util.List;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import rx.Observable;
-import rx.Scheduler;
+import io.reactivex.Observable;
+import io.reactivex.Scheduler;
 
-/**
- * @author David Wu (david10608@gmail.com)
- * Created by pl4gue on 09.10.17.
- */
 
 public class GetRepoUseCase extends Usecase<List<GitHubUserRepos>> {
 
