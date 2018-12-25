@@ -9,9 +9,6 @@ import android.view.inputmethod.InputMethodManager;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by Vinay on 10/1/2016.
- */
 public class Util {
     public static class UtilConstants {
         public static class Languages {

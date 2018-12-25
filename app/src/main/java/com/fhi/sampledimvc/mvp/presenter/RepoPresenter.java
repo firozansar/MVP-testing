@@ -17,10 +17,6 @@ import butterknife.BindView;
 
 import static android.content.ContentValues.TAG;
 
-/**
- * @author David Wu (david10608@gmail.com)
- * Created by pl4gue on 09.10.17.
- */
 
 public class RepoPresenter implements Presenter {
 

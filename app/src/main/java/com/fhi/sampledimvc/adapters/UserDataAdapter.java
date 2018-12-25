@@ -14,9 +14,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by Vinay on 11/29/2016.
- */
+
 public class UserDataAdapter extends RecyclerView.Adapter<UserDataAdapter.UserViewHolder> {
     private List<User> mDataList;
 

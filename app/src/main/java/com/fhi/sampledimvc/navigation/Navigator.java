@@ -10,10 +10,6 @@ import com.fhi.sampledimvc.mvp.view.activity.UserActivity;
 
 import javax.inject.Inject;
 
-/**
- * Class used to navigate through the application.
- * @author Edited by David Wu (david10608@gmail.com)
- */
 
 public class Navigator {
 

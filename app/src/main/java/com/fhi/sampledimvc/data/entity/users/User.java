@@ -1,8 +1,6 @@
 package com.fhi.sampledimvc.data.entity.users;
 
-/**
- * Created by Vinay on 11/28/2016.
- */
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

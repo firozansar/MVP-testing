@@ -1,10 +1,5 @@
 package com.fhi.sampledimvc.data.entity.repos;
 
-/**
- * @author David Wu (david10608@gmail.com)
- * Created by Vinay on 11/28/2016.
- */
-
 import com.fhi.sampledimvc.data.entity.starred.Owner;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

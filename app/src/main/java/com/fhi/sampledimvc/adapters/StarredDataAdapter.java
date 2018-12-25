@@ -15,9 +15,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by Vinay on 11/28/2016.
- */
+
 public class StarredDataAdapter extends RecyclerView.Adapter<StarredDataAdapter.StarredViewHolder>{
     private List<GitHubRepoStarred> mDataList;
 

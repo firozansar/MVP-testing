@@ -9,9 +9,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-/**
- * Created by Vinay on 11/28/2016.
- */
+
 public class StarredPresenter implements Presenter {
 
     private StarredView mView;
