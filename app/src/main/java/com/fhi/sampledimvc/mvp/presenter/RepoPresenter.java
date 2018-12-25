@@ -33,7 +33,7 @@ public class RepoPresenter implements Presenter {
 
     public void initialize() {
         mView.displayLoadingScreen();
-        mRepoListCase.setUsername("pl4gue");
+        mRepoListCase.setUsername("firozansar");
         next();
     }
 
@@ -63,7 +63,7 @@ public class RepoPresenter implements Presenter {
         Log.d(TAG, "onNextRepoList: "+currentList.size());
         mView.hideLoadingScreen();
         mView.updateReposResult(currentList);
-        mView.showTitleByUsername(reposList,"pl4gue",currentPage,totalPages);
+        mView.showTitleByUsername(reposList,"firozansar",currentPage,totalPages);
     }
 
     private void raiseCounter() {

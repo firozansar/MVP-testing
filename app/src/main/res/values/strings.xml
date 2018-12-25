@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SampleDIMVC</string>
+    <string name="app_name">MVP Testing</string>
     <string name="main_buttonStarred">Starred</string>
     <string name="settings_language_English">English</string>
     <string name="settings_language_Hindi">Hindi</string>
